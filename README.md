@@ -17,3 +17,15 @@ Hello!
     <b></b><strong></strong>
 <abbr title="">IRS</abbr> <del>$995</del>
 <s>$995</s>
+
+
+<figure>
+
+<img src="street.jpg" alt="" width="45%">
+    <figcaption>Some description here</figcaption>
+<img src="street.jpg" alt="" width="45%">
+    <figcaption>Some description here</figcaption>
+<img src="street.jpg" alt="" width="30%" align="right">
+    <figcaption>Some description here</figcaption>
+
+</figure>
