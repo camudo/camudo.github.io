@@ -1,4 +1,4 @@
-# https://www.camudo.github.io
+# https://camudo.github.io
 Hello!
 
 <html lang="en" dir="ltr">
