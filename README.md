@@ -27,5 +27,5 @@ Hello!
     <figcaption>Some description here</figcaption>
 <img src="street.jpg" alt="" width="30%" align="right">
     <figcaption>Some description here</figcaption>
-
+ 
 </figure>
