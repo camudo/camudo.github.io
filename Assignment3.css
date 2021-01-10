@@ -1,0 +1,183 @@
+<style media="screen">
+
+  .p1 {border: 3px solid blue;
+    color: red; background: yellow;}
+
+  .p2 {border: 2px dotted green; color: lightpink;
+    background-color: lightblue;
+        width: 400px;}
+
+  .p3 {border: 5px solid green; color: red; background: black;
+    font-family:  arial; font-size: 20px; font-weight:bold;
+    height:  20px; width: 200px; margin: 2%; padding: inherit;
+    border-radius:; text-shadow: ;
+    display: block; position: center;  }
+
+  .p4 {border: 19px solid purple; color: blue; background: white;
+      font-family:  ; font-size: 30px; font-weight:bold;
+      height:  ; width: ; margin: 10%; padding: inherit;
+      border-radius: ; text-shadow: ;
+      display: block; position: right;  }
+
+  .p5 {border: 0px solid blue; color: white; background: gray;
+        font-family:  ; font-size: ; font-weight:bold;
+        height:  ; width: ; margin: 10%; padding: inherit;
+        border-radius:; text-shadow: ;
+        display: block; position: ;  }
+
+  .p6 {border: 15px dotted black; color: purple; background: pink;
+          font-family:  ; font-size: ; font-weight:bold;
+          height:  ; width: ; margin: 2%; padding: inherit;
+          border-radius:; text-shadow: 2px green;
+          display: block; position: ;  }
+
+  .p7 {border: 3px solid blue; color: red; background: green;
+            font-family:  arial black; font-color:white; font-size: 70px; font-weight:bold;
+            height:  100px; width: ; margin: 2%; padding: inherit;
+            border-radius:; text-shadow: ;
+            display: block; position: ;  }
+
+  .p8 {border: 3px solid gray; color: red; background: yellow;
+              font-family:  ; font-size: ; font-weight:bold;
+              height:  ; width: ; margin: 1%; padding: inherit;
+              border-radius:; text-shadow: ;
+              display: block; position: ;  }
+
+
+
+  .text {
+      color:rgb(100,130,55,0.9);
+      background-color: lightyellow;
+
+      font-size:30px;
+      font-family: courier;
+      font-weight: bolder;
+      font-style: italic;
+
+      border: 2px solid black;
+      box-shadow: 10px 5px 10px green;
+      width: 50%;
+      height: 40%;
+
+      margin: 20% 20%;
+      padding: 2% 2%;
+      text-align: center;
+      text-shadow: 10px 5px 10px purple;
+                  }
+
+
+    .image1 {
+      width: 100%;
+      margin: 3% 3% 3% 3%;
+      border: 2px solid red;
+      border-radius: 30%;
+      box-shadow: 10px 5px 10px purple;
+      filter:grayscale(10);
+              }
+
+    .image2 {
+      width: 100%;
+      margin: 3% 3% 3% 3%;
+      border: 2px solid red;
+      border-radius: 50%;
+    }
+
+    .image3 {
+      width: 100%;
+      margin: 3% 3% 3% 3%;
+      border: 2px solid red;
+      border-radius: 50%;
+      box-shadow: 10px 5px 10px purple;
+      filter:contrast(30);
+              }
+
+
+                                .container {
+                                  width: 100%;
+                                  height:800px;
+                                  align: center;
+                                          }
+                                        .imagecol {
+                                          display: inline-block;
+                                          position: relative;
+                                          align: center;
+                                          width: 200px;
+                                          color: black;
+                                          text-align: center;
+                                          margin-bottom: 20px;
+                                          border: 2px solid gray;
+                                                }
+
+
+    .imageblock{
+      border:2px dotted green;
+      width:100%;
+      background: lightyellow;
+      height: auto;
+      padding-top: 20px;
+      padding-bottom: 60px;
+    }
+
+    .text-block {
+      display: inline-block;
+      position: relative;
+      margin: 3% 3% 3% 3%;
+      width: 22%;
+      background-color: lightgreen;
+      color: black;
+      padding-left:20px;
+      padding-right:20px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+            .blockcol {
+              display: inline-block;
+              position: relative;
+              align: center;
+              width: 100px;
+              color: black;
+              padding-left:20px;
+              padding-right:20px;
+              text-align: center;
+              margin-bottom: 20px;}
+
+
+
+
+        .block1 {
+          display: inline-block;
+          position: relative;
+          width: 25%;
+          color: black;
+          padding-left:20px;
+          padding-right:20px;
+          text-align: center;
+          margin-bottom: 20px;
+        }
+
+
+        .block2 {
+          display: inline-block;
+          position: relative;
+          width: 25%;
+          color: black;
+          padding-left:10px;
+          padding-right:10px;
+          text-align: center;
+          margin-bottom: 10px;
+            }
+        .button {
+
+          background-color: #4CAF50;
+          border: none;
+          color: white;
+          padding: 8px 8px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+        }
+
+
+</style>
