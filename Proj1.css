@@ -1,0 +1,80 @@
+<style media="screen">
+
+{word-break: break-all; }
+    ._text {
+    float:left;
+    width: 100%;
+    position: absolute;
+    text-align:left;
+    font-size:16px;
+    color:black;
+    z-index:1;
+    max-width: 100%;
+}
+
+
+            .imageblock{
+              align: center;
+              border:2px solid white;
+              width:100%;
+              height: auto;
+              padding-top: 50px;
+              padding-bottom: 50px;
+              white-space: nowrap;
+              inline
+                  }
+              .imageColumn {
+                 float: left;
+                 border: 2px solid black;
+
+                 width: 30%;}
+
+                 .imageblock .imageColumn {
+                    display:inline-block;
+                      vertical-align: middle;
+                      float: none;
+                    }
+
+
+                    .figure {
+                    position: absolute;
+                    width: 30%;
+                    height: auto;
+                    top:-3px;
+                    bottom:-3px;
+                    float: left;
+                                      }
+
+                    .figure .figcaption {
+                      position: relative;
+                      width: 100%;
+                      display: block;
+                      bottom:-30%;
+                      background-color: rgba(86, 146, 214, 0.6);
+                      text-color: ;
+                      text-align: center;
+                      color: white;
+                      font-family: 'Open Sans', sans;
+                    }
+
+                    .figure .figcaption2 {
+                      position: relative;
+                      width: 100%;
+                      display: block;
+                      bottom:-30%;
+                      background-color: rgba(53, 115, 55, 0.6);
+                      text-color: ;
+                      text-align: center;
+                      color: white;
+                      font-family: 'Open Sans', sans;
+                    }
+
+
+        .centered {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+
+</style>
