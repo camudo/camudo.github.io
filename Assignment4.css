@@ -1,0 +1,44 @@
+
+
+  body {
+        background-color: #a796b0;
+        color:white;
+        opacity:1;
+}
+
+.clock {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  background-image: url('clock.png');
+  background-repeat: no-repeat;
+  display: table;
+  clear: both;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+
+.minute {
+  /*
+   animation-duration: 10s;
+   animation-delay: 1s;
+*/
+   transition: transform 10s;
+    margin-left:0px; margin-top:0px;
+   float: left;
+   transform: rotate(360deg);
+}
+
+.hour {
+  /*
+   animation-duration: 10s;
+   animation-delay: 1s;
+*/
+  position: relative;
+  float: left;
+   margin-left:0px; margin-top:-600px;
+   transition: transform 10s;
+   transform: rotate(30deg);
+
+}
