@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta name="viewport">
+    <title></title>
+    <style media="screen">
+        body {
+            height: 100vh;
+            display: flex;
+            background: linear-gradient(lightyellow, lightpink);
+            align-items: center;
+            align-content: center;
+            align-self: center;
+        }
+
+        h1 {
+            text-align: center;
+            align-items: center;
+            align-content: center;
+            align-self: center;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!DOCTYPE HTML>
+    <html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Untitled Document</title>
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+        <style>
+            p {
+                font-size: 26px;
+            }
+
+            .items {
+                align-content: center;
+                text-align: center;
+                padding-left: 30%;
+                right: 0;
+                top: 0;
+                bottom: 0;
+            }
+
+            .items a {
+                display: block;
+                cursor: pointer;
+
+            }
+
+            .modal {
+                display: none;
+                /* Hidden by default */
+                position: fixed;
+                /* Stay in place */
+                z-index: 99;
+                /* Sit on top */
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                overflow: auto;
+                /* Enable scroll if needed */
+                background-color: rgb(0, 0, 0);
+                /* Fallback color */
+                background-color: rgba(0, 0, 0, 0.4);
+                /* Black w/ opacity */
+            }
+
+            .modal-content {
+                background-color: #fefefe;
+                position: fixed;
+                top: 20%;
+                bottom: 20%;
+                left: 0;
+                right: 0;
+                margin: auto;
+                padding: 20px;
+                border: 1px solid #888;
+                width: 70%;
+                /* Could be more or less, depending on screen size */
+                display: none;
+                box-sizing: border-box;
+                z-index: 100;
+                overflow: auto;
+            }
+
+            .close {
+                color: #aaa;
+                float: right;
+                font-size: 28px;
+                font-weight: bold;
+            }
+
+            .close:hover,
+            .close:focus {
+                color: black;
+                text-decoration: none;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="myModal" class="modal">
+            <div class="modal-content" id="a1"> <span class="close">&#215;</span>
+                <p><span>All buttons should lead to this modal!</span></p>
+                <i>example</i>
+            </div>
+        </div>
+        </div>
+        <nav class="items">
+            <button class="myBtn" data-bid="a1">Button 1</button>
+            <button class="myBtn" data-bid="a1">Button 2</button>
+            <button class="myBtn" data-bid="a1">Button 3</button>
+        </nav>
+        <script>
+            $(document).on('click', '.myBtn', function () {
+                var myTargetModal = '#' + $(this).data('bid');
+                $('#myModal').hide();
+                $('.modal-content').hide();
+
+                $('#myModal').fadeIn();
+                $(myTargetModal).fadeIn();
+            });
+
+            $("body").on("click", ".close", function () {
+                $('#myModal').hide();
+                $('.modal-content').hide();
+            });
+
+        </script>
+    </body>
+
+    </html>
+
+    <script src="Assignment9.js">
+
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+
+</html>
