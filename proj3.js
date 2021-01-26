@@ -32,6 +32,7 @@ document.getElementById('guessing').addEventListener("click", function () {
         displaymsg('🎉 CORRECT 🎉');
         document.getElementById('third').textContent = score;
         document.getElementById('game-win').style.background = 'linear-gradient(lightyellow, #bfee90)';
+        document.getElementById("image-win").src = "WIN.png";
     }
 });
 document.getElementById('autobox').addEventListener("click", function () {
@@ -39,6 +40,7 @@ document.getElementById('autobox').addEventListener("click", function () {
     document.getElementById('second').textContent = '10';
     document.getElementById('third').textContent = '0';
     document.querySelector('.text').textContent = " ";
+    document.getElementById("image-win").src = "TITLE.png";
     SECRETNUM = Math.trunc(Math.random() * 100) + 1;
     score = 10;
     document.getElementById('game-win').style.background = 'linear-gradient(lightyellow, lightpink)';
