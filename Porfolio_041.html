@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title></title>
+</head>
+
+<style media="screen">
+    a {
+        color: red;
+    }
+
+    body {
+        color: red;
+        background: linear-gradient(lightyellow, lightpink);
+        font-family: "Times New Roman", Times, serif;
+        height: 100%;
+        font-size: 22px;
+    }
+
+    a :hover {
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    p {
+        font-style: italic;
+        background: linear-gradient(lightyellow, lightpink);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 38px;
+    }
+
+    .container {
+
+        background: transparent;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 22px;
+    }
+
+
+    h1 {
+        font-size: 40px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    h2 {
+        font-size: 26px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+
+    }
+
+    .img {
+        max-width: 30vw;
+        max-height: 15vh;
+    }
+
+    .numberpink {
+        background-color: lightgoldenrodyellow;
+        border: 4px dotted pink;
+        color: red;
+        width: 100%;
+        align-content: center;
+        font-size: 18px;
+    }
+
+    .boxyA {
+        height: 300px;
+        border: 1px solid transparent;
+        margin-left: 8%;
+        float: left;
+    }
+</style>
+
+
+<div id="game-win">
+    <ul class="navbar navbar-light" style="">
+        <li class="nav-link active">
+            <h2>Guess the number between 1-100!</h2>
+        </li>
+        <li class="nav-link active">&nbsp;</li>
+        <li class="nav-link active">&nbsp;</li>
+        <div id="autobox">
+            <li class="nav-link active"><button class="btn btn-lg btn-danger" id="autobox">RESET GAME</button>
+        </div>
+        </li>
+    </ul>
+
+    <h1 class="m1-3" align="center">
+        <div id="autobox"><img id="image-win" src="TITLE.png" alt="" width="70%">
+        </div>
+    </h1>
+    <!--COLUMN 1-->
+    <!--COLUMN 1-->
+    <!--COLUMN 1-->
+    <!--COLUMN 1-->
+    <div class="container row ml-5">
+        <div class="col-sm-8 text-center">
+            <div class="text-center">
+                <div class="container-fluid" style=>
+                    <p class="autobox" id="first">Start guessing .. 💭 </p>
+                    <p class="autobox"><img src="SCORE.png" alt="" class="img"> <span id="second">10</span><br></p>
+                    <p class="autobox"><img src="HIGH-SCORE.png" alt="" class="img"> <span id="third">0</span></p>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--COLUMN 2-->
+        <!--COLUMN 2-->
+        <!--COLUMN 2-->
+        <!--COLUMN 2-->
+        <div class="col-sm-2 text-center">
+            <div class="boxyA" align="center">
+                Guess here!
+                <textarea rows="3" cols="16" style="border: 1px solid pink;" class="text"
+                    value="choose # between 1-100"></textarea><br>
+                <button type="button" name="button" class="check btn btn-danger btn-lg" id="guessing">
+                    Check!</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!--BOOTSRAP AND JAVASCRIPT REF-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="Porfolio_041.js"></script>
+</body>
+
+</html>
